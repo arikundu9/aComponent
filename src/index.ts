@@ -1,3 +1,3 @@
 import { HelloWorld } from './HelloWorld';
 
-customElements.define('HelloWorld', HelloWorld);
+customElements.define('hello-world', HelloWorld);

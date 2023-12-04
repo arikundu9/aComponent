@@ -4,7 +4,7 @@
     "description": "Some web components",
     "main": "index.js",
     "scripts": {
-        "build": "tsc"
+        "build": "tsc && webpack --mode production --config webpack.config.js"
     },
     "author": "Arijit Kundu",
     "license": "MIT",
@@ -17,5 +17,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/arikundu9/aComponent.git"
+    },
+    "dependencies": {
+        "webpack": "^5.89.0",
+        "webpack-cli": "^5.1.4"
     }
 }
